@@ -8,4 +8,12 @@ import { Component } from '@angular/core';
 })
 export class LoginComponent {
 
+  counter=0
+  updateCounter(a:number){
+    if(a==0){
+      this.counter=0;
+      return;
+    }
+    this.counter+=a;
+  }
 }

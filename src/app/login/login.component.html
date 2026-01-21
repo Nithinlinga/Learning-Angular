@@ -1,1 +1,5 @@
 <p>login works!</p>
+<h1>{{counter}}</h1>
+<button  (click)="updateCounter(-1)">Decrement</button>
+<button (click)="updateCounter(0)">Reset</button>
+<button class="bg-green-500 box-border border border-transparent hover:bg-success-strong focus:ring-4 focus:ring-success-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none" (click)="updateCounter(1)">Increment</button>
